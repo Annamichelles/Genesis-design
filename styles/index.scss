@@ -1,4 +1,12 @@
 @use 'fonts';
 
 @import 'header';
-@import 'main';
+@import 'landing-page-intro';
+ 
+body {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+	flex-direction: column;
+}

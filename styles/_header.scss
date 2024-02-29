@@ -2,9 +2,47 @@
 	width: 100vw;
 	height: 78px;
 	display: flex;
-	justify-content: flex-end;
+	justify-content: space-between;
 	align-items: center;
 	padding: 20px 10%;
     box-sizing: border-box;
+    &__logo {
+    	cursor: pointer;
+    }
+}
 
+.header__menu {
+		width: 350px;
+		color: #2F281E;
+		font-family: 'Mulish', sans-serif;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 28px; /* 150% */
+		cursor: pointer;
+		display: flex;
+		justify-content: flex-end;
+		cursor: pointer;
+
+		& li {
+		display: inline-block;
+		}
+
+		& a {
+		color: #2F281E;
+		text-decoration: none;
+		}
+	}
+
+.projects {
+	margin-right: 20px;
+	&:hover {
+		color: #686666;
+	}
+}
+
+.contact {
+	&:hover {
+		color: #686666;
+	}
 }
