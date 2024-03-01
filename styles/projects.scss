@@ -33,7 +33,7 @@
 		justify-content: space-between;
 		width: 100%;
 	}
-	&__client, &__design, &__deliver, &__year, &__field {
+	&__client, &__design, &__deliver, &__year, &__field{
 		display: flex;
 		justify-content: space-between;
 		border-top: solid;
@@ -41,5 +41,12 @@
 		border-width: 1px;
 		width: 100%;
 	}
+	 &__name, &__email, &__message {
+	 	display: flex;
+		border-bottom: solid;
+		border-color: #E0E0E0;
+		border-width: 1px;
+		width: 100%;
+	 }
 }
 
