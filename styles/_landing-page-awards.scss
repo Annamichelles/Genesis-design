@@ -1,0 +1,78 @@
+.awards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	&__first-container {
+		display: flex;
+		justify-content: space-between;
+		align-items: baseline;
+		width: 1110px;
+		color: $main-txt-color;
+		font-family: 'Mulish', sans-serif;
+		border-top: solid;
+		border-color: #D8D8D8;
+	}
+	&__second-container {
+		display: flex;
+		justify-content: flex-end;
+		align-items: baseline;
+		width: 1110px;
+		color: $main-txt-color;
+		font-family: 'Mulish', sans-serif;
+	}
+	&__third-container {
+		display: flex;
+		justify-content: space-between;
+		align-items: baseline;
+		width: 1110px;
+		color: $main-txt-color;
+		font-family: 'Mulish', sans-serif;
+		border-top: solid;
+		border-color: #D8D8D8;
+	}
+
+	&__fourth-container {
+		display: flex;
+		justify-content: flex-end;
+		align-items: baseline;
+		width: 1110px;
+		color: $main-txt-color;
+		font-family: 'Mulish', sans-serif;
+
+	}
+	
+}
+
+.first {
+	color: $main-txt-color;
+	font-family: 'Mulish', sans-serif;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.second {
+	color: $main-txt-color;
+	font-family: 'Mulish', sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.third {
+	color: $main-txt-color;
+	font-family: 'Mulish', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 300;
+	width: 190px;
+	line-height: 28px;
+}
+
+.fourth {
+	color: $main-txt-color;
+	font-family: 'Mulish', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 300;
+}
