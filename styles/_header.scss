@@ -10,9 +10,7 @@
     &__logo {
     	cursor: pointer;
     }
-}
-
-.header__menu {
+    &__menu {
 		width: 350px;
 		color: #2F281E;
 		font-family: 'Mulish', sans-serif;
@@ -34,6 +32,7 @@
 		text-decoration: none;
 		}
 	}
+}
 
 .projects {
 	margin-right: 20px;

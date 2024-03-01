@@ -43,7 +43,7 @@
 	
 }
 
-.first {
+.large-bold {
 	color: $main-txt-color;
 	font-family: 'Mulish', sans-serif;
 	font-size: 22px;
@@ -51,7 +51,7 @@
 	font-weight: 400;
 }
 
-.second {
+.medium-bold {
 	color: $main-txt-color;
 	font-family: 'Mulish', sans-serif;
 	font-size: 18px;
@@ -59,7 +59,7 @@
 	font-weight: 400;
 }
 
-.third {
+.small-container {
 	color: $main-txt-color;
 	font-family: 'Mulish', sans-serif;
 	font-size: 16px;
@@ -69,10 +69,12 @@
 	line-height: 28px;
 }
 
-.fourth {
+.regular-small {
 	color: $main-txt-color;
 	font-family: 'Mulish', sans-serif;
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 300;
 }
+
+

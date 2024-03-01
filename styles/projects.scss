@@ -1,0 +1,45 @@
+.photo-text {
+	width:1109px;
+}
+
+.photos-project {
+	display: flex;
+	margin-top: 45px;
+	margin-bottom: 132px;
+}
+
+.nature2, .vase, .night {
+	margin: 15px;
+}
+
+.first-section-projects {
+	height: 345px;
+	width: 1110px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-bottom: 60px;
+}
+
+.details {
+	display: flex;
+	flex-wrap: wrap;
+	width: 335px;
+	height: 343px;
+	object-fit: fill;
+	&__project{
+		display: flex;
+		border: none;
+		justify-content: space-between;
+		width: 100%;
+	}
+	&__client, &__design, &__deliver, &__year, &__field {
+		display: flex;
+		justify-content: space-between;
+		border-top: solid;
+		border-color: #E0E0E0;
+		border-width: 1px;
+		width: 100%;
+	}
+}
+
