@@ -79,10 +79,10 @@
 
 .gallery-text {
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
-	position: relative;
 	margin-bottom: 100px;
+	width: 1110px;
 	&__main {
 		width: 635px;
 		color: $main-txt-color;
@@ -93,32 +93,32 @@
 	
 	}
 }
-/*.gallery-text__menu-left {
+.gallery-text__menu-left {
 		display: flex;
 		flex-direction: column;
 		font-family: 'Mulish', sans-serif;
 		font-size: 18px;
 		font-style: normal;
-		font-weight: 300;
+		font-weight: 200;
 
 		& li {
 		display: inline-block;
 		}
 
 		& a {
+		color: $secondary-color;
 		text-decoration: none;
 		}
 
-	}
-	
 }
+	
 
-/*.Multimedia:hover {
-	color: #111111;
+.Multimedia:hover {
+	color: $main-txt-color;
 }
 
 .Interactive:hover {
-	color: $third-color;
+	color: $main-txt-color;
 }
 
 .Branding:hover {
@@ -142,4 +142,16 @@
 		text-decoration: none;
 		}
 	
+}
+
+/*.Creative:hover {
+    color: $main-txt-color;
+}
+
+.Packaging:hover {
+    color: $tmain-txt-color;
+}
+
+.Coding:hover {
+    color: $main-txt-color;
 }*/

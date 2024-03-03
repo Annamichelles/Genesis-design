@@ -1,7 +1,11 @@
 .awards {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: flex-end;
+	width: 1110px;
+	margin-bottom: 114px;
+	border-bottom: solid;
+	border-color: #D8D8D8;
 	&__first-container {
 		display: flex;
 		justify-content: space-between;
@@ -14,9 +18,9 @@
 	}
 	&__second-container {
 		display: flex;
-		justify-content: flex-end;
+		justify-content: space-between;
 		align-items: baseline;
-		width: 1110px;
+		width: 753px;
 		color: $main-txt-color;
 		font-family: 'Mulish', sans-serif;
 	}
@@ -33,14 +37,24 @@
 
 	&__fourth-container {
 		display: flex;
-		justify-content: flex-end;
+		justify-content: space-between;
 		align-items: baseline;
-		width: 1110px;
+		width: 753px;
 		color: $main-txt-color;
 		font-family: 'Mulish', sans-serif;
 
 	}
 	
+}
+
+.small-container {
+	color: $main-txt-color;
+	font-family: 'Mulish', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 300;
+	width: 190px;
+	line-height: 28px;
 }
 
 .large-bold {
@@ -59,15 +73,6 @@
 	font-weight: 400;
 }
 
-.small-container {
-	color: $main-txt-color;
-	font-family: 'Mulish', sans-serif;
-	font-size: 16px;
-	font-style: normal;
-	font-weight: 300;
-	width: 190px;
-	line-height: 28px;
-}
 
 .regular-small {
 	color: $main-txt-color;
@@ -76,4 +81,3 @@
 	font-style: normal;
 	font-weight: 300;
 }
-

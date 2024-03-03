@@ -9,6 +9,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/b859aba923.js" crossorigin="anonymous"></script>
 </head>
 <body>
 	<header class="header">
@@ -23,9 +24,7 @@
 
  	<div class="first-section">
  		<div class="first-section__left">
-	 		<p class="second-title">
-	 			Shooting Stars
-	 		</p>
+	 		<p class="second-title">Shooting Stars</p>
 	 		<h1 class="main-title">
 	 			Hello, I’m Bakhtiyar Sattarov,
 				<span style="color: #4A4FF2">product designer </span> with experience
@@ -46,7 +45,7 @@
 		<div class="grid__element five"> <img src="images/freedom.png" alt="wip"></div>
 		<div class="grid__element six"> <img src="images/model.png" alt="wip"></div>
 		<div class="grid__element seven"> <img src="images/ghost.png" alt="wip"></div>
-		<div class="grid__element eight"><img src="images/walking.png" alt="wip"></div> <!--add link to project-->
+		<div class="grid__element eight"><img src="images/walking.png" alt="wip"></div> 
 		<div class="grid__element nine"> <img src="images/piano.png" alt="wip"></div>
 		<div class="grid__element ten"> <img src="images/sunset.png" alt="wip"></div>
 		<div class="grid__element eleven"> <img src="images/alone.png" alt="wip"></div>
@@ -57,19 +56,19 @@
 
 		<div>	
 			<nav>
-					<ul class="gallery-text__menu-left">
-						<li><a class="Multimedia" href="#">Multimedia</a></li>
-	 					<li><a class="Interactive" href="#">Interactive Design</a></li>
-	 					<li><a class="Branding" href="#">Branding</a></li>
+					<ul>
+						<li class="gallery-text__menu-left"><a class="Multimedia" href="#">Multimedia</a></li>
+	 					<li class="gallery-text__menu-left"><a class="Interactive" href="#">Interactive Design</a></li>
+	 					<li class="gallery-text__menu-left"><a class="Branding" href="#">Branding</a></li>
 					</ul>
 	 		</nav>
 	 	</div>
 	 	<div >
 	 		<nav>
-					<ul class="gallery-text__menu-right">
-						<li class="Creative"><a href="#">Creative design</a></li>
-	 					<li class="Packaging"><a href="#">Packaging</a></li>
-	 					<li class="Coding"><a href="#">Coding</a></li>
+					<ul>
+						<li class="gallery-text__menu-right"><a class="Creative" href="#">Creative design</a></li>
+	 					<li class="gallery-text__menu-right"><a class="Packaging" href="#">Packaging</a></li>
+	 					<li class="gallery-text__menu-right"><a class="Coding" href="#">Coding</a></li>
 					</ul>
 	 		</nav>
 	 	</div>
@@ -77,8 +76,8 @@
 	
 	<div class="awards"> <!--fix alignment-->
 		<div class="awards__first-container">
-			<p class="large-bold">Awwwards</p>
-			<p class="medium-bold">Site of the day</p>
+			<p class="large-bold small-container">Awwwards</p>
+			<p class="medium-bold small-container">Site of the day</p>
 			<div class="small-container"> 
 				<p class="regular-small">Genesis UI Kit</p> 
 				<p class="regular-small">Application that helps to find nearest sport centres</p>
@@ -87,7 +86,7 @@
 		</div>
 	
 		<div class="awards__second-container">
-			<p class="medium-bold">Best navigation</p>
+			<p class="medium-bold small-container">Best navigation</p>
 			<div class="small-container"> 
 				<p class="regular-small">Genesis Template</p> 
 				<p class="regular-small">Application that helps to find nearest sport centres</p>
@@ -95,8 +94,8 @@
 			<p class="medium-bold">2018</p>
 		</div>
 		<div class="awards__third-container">
-			<p class="large-bold">CSSDesignAwards</p>
-			<p class="medium-bold">Site of the day</p>
+			<p class="large-bold small-container">CSSDesignAwards</p>
+			<p class="medium-bold small-container">Site of the day</p>
 			<div class="small-container"> 
 				<p class="regular-small">Genesis Template</p> 
 				<p class="regular-small">Application that helps to find nearest sport centres</p>
@@ -104,7 +103,7 @@
 			<p class="medium-bold">2017</p>	
 		</div>
 		<div class="awards__fourth-container">
-			<p class="medium-bold">Best navigation</p>
+			<p class="medium-bold small-container">Best navigation</p>
 			<div class="small-container"> 
 				<p class="regular-small">Genesis Template</p> 
 				<p class="regular-small">Application that helps to find nearest sport centres</p>
@@ -115,13 +114,18 @@
 
 	<footer class="footer">
  			<div><img class="footer__logo" src="images/logo.svg" alt="Logo of name Genesis"></div>
- 			<nav class="footer__menu">
- 				<ul>
- 					<li><a href="#" class="projects">Projects</a></li>
-	 				<li><a href="#" class="contact">Contact</a></li>
- 				</ul>
- 			</nav>
- 		<!--fix icon--->
+ 			<div class="footer__end"><nav class="footer__menu">
+	 				<ul>
+	 					<li><a href="#" class="projects">Projects</a></li>
+		 				<li><a href="#" class="contact">Contact</a></li>
+	 				</ul>
+	 			</nav>
+	 			<div class="icons">
+	 			<i class="fa-solid fa-basketball"></i>
+	 			<i class="fa-brands fa-instagram"></i>
+	 			<i class="fa-brands fa-twitter"></i>
+	 			</div>
+	 		</div>
  	</footer>
  </body>
 </html>
