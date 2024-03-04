@@ -2,7 +2,8 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: flex-end;
-	width: 1110px;
+	max-width: 1110px;
+	width: 100%;
 	margin-bottom: 114px;
 	border-bottom: solid;
 	border-color: #D8D8D8;
@@ -10,7 +11,8 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: baseline;
-		width: 1110px;
+		max-width: 1110px;
+		width: 100%;
 		color: $main-txt-color;
 		font-family: 'Mulish', sans-serif;
 		border-top: solid;
@@ -20,7 +22,8 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: baseline;
-		width: 753px;
+		max-width: 753px;
+		width: 100%;
 		color: $main-txt-color;
 		font-family: 'Mulish', sans-serif;
 	}
@@ -28,7 +31,8 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: baseline;
-		width: 1110px;
+		max-width: 1110px;
+		width: 100%;
 		color: $main-txt-color;
 		font-family: 'Mulish', sans-serif;
 		border-top: solid;
@@ -39,7 +43,8 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: baseline;
-		width: 753px;
+		max-width: 753px;
+		width: 100%;
 		color: $main-txt-color;
 		font-family: 'Mulish', sans-serif;
 
